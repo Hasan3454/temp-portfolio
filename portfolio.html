@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="Home">
+      <div class="logo">
+        <p class="logo_text">Md Tahasib Bin Hossain</p>
+        <p class="logo_under_text">Personal Portfolio</p>
+      </div>
+
+      <nav>
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="About">
+        <div class="introduction inner_cont">
+          <article class="self_info">
+            <p>
+              Hi! My name is Md Tahasib Bin Hossain. I study Computer Science and Engineering at IIUC. Welcome to my personal portfolio that i've designed to showcase my skills.
+            </p>
+          </article>
+
+          <img
+            src="zidan.jpg"
+            alt=""
+            class="self_img"
+          />
+        </div>
+        <div class="skills inner_cont">
+          <article class="skill_showcase">
+            <p>My skills are :</p>
+          </article>
+
+          <div class="skills">
+            <div class="_skill_cont">
+              <h3>HTML&CSS :</h3>
+              <div class="progress_bar_cont">
+                <div class="progress_bar_1">75%</div>
+              </div>
+
+              <div class="_skill_cont">
+                <h3>Java :</h3>
+                <div class="progress_bar_cont">
+                  <div class="progress_bar_2">60%</div>
+                </div>
+              </div>
+
+              <div class="_skill_cont">
+                <h3>C++ :</h3>
+                <div class="progress_bar_cont">
+                  <div class="progress_bar_3">80%</div>
+                </div>
+              </div>
+
+              <div class="_skill_cont">
+                <h3>MySQL</h3>
+                <div class="progress_bar_cont">
+                  <div class="progress_bar_4">70%</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Projects">
+        <div class="project_container">
+          <div class="project">
+            <img
+              src="simplecalc.PNG"
+              alt=""
+              class="project_img"
+            />
+            <article class="project_desc">
+              I have made a simple calculator using java.
+              I have used a pretty simple design and it works flawlessly.
+            </article>
+          </div>
+        </div>
+
+        <div class="project_container">
+          <div class="project">
+            <img
+              src="studentresult.PNG"
+              alt=""
+              class="project_img"
+            />
+            <article class="project_desc">
+              I have made a student result management system using java and mySQl.
+              I have used simple design. Any student can go to student panel search with their roll and check their result.
+              when we have to add or remove any student result detail, we have to go to admin panel insert new student information
+              and their result information. After updating information we can check the student list if it is updated or not.
+
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="Contact">
+        <div class="contact_container">
+          <div class="contact c01">
+            <h2>Contact Me</h2>
+            <br>
+
+            <form action="mailto:c193010@ugrad.iiuc.ac.bd" method="post" enctype="text/plain">
+            <p><input type="text" placeholder="Your name" name="Name:"></p>
+            <br>
+            <p><input type="email" placeholder="Your Email" name="email:"></p>
+            <br>
+            <textarea name="message" id="" rows="10" cols="30" placeholder="Your message here"></textarea>
+            <br>
+            <button type="submit">
+              SEND
+            </button>
+            <button type="reset">
+              RESET
+            </button>
+            </form>
+          </div>
+        </div>
+        <div class="contact_container-2">
+          <div class="contact c02">
+            <h2>More ways to contact</h2>
+            <div class="media-buttons">
+            <button class="btn"><i class="fa fa-facebook" style="color:  #3b5998;" aria-hidden="true"></i></button>
+            <button class="btn"><i class="fa fa-youtube-play" style="color: #c4302b;" aria-hidden="true"></i></button>
+            <button class="btn"><i class="fa fa-github" aria-hidden="true" style="color: #000000;"></i></button>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+    <footer>
+      <nav>
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+
+      <div class="common_portfolio_text">Free portofolio by @Tahasib</div>
+    </footer>
+  </body>
+</html>
